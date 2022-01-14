@@ -1,0 +1,267 @@
+* 
+{
+       padding: 0;
+       margin: 0;
+      
+}
+body
+{
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+.menu-bar  
+{
+background: #00000af1;    /* menu bar ka color */
+text-align: center;
+}
+.menu-bar ul    /*  menu bar me jo likha h usme effect padega */
+{ 
+   display: inline-flex;
+   list-style: none;
+   color: rgb(175, 7, 7);
+}
+.menu-bar ul li    /* about clg ye sab bada hoga */
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a    /* anker tag   about us ke upr jo box aana h click krne pe uska color */        
+{ 
+   text-decoration: none;
+   color: #ffffff;          /* about us wali line ka color */
+} 
+.menu-bar ul li:hover
+{
+background: #4d4bbee8;   /* about k upr click kr k chart aata h uska color */
+    border-radius: 3px;
+}
+.sub-menu-1           /* abous us wala menu */
+
+{ 
+    display: none;
+    font-weight: bold;
+}
+.menu-bar ul li:hover .sub-menu-1
+{   
+display: block;
+position: absolute;
+background: #4d4bbee8 ; /* menu me jo chart aata h us ka colour change hoga */
+margin-top: 15px;
+margin-left: -15px;
+} 
+
+
+.menu-bar ul li:hover .sub-menu-1 ul      /* chart ke andr ka chart arrange hoga sahi se */
+{ 
+   display: block;
+   margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted rgb(138, 62, 62);  /* apply now k neche patli si line h uska color */
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li: last-child
+{  
+   border-bottom: none;
+}
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover    /* uspe click krne pe color change hoga */
+{ 
+   color:  #1a1515;
+} 
+
+
+.sub-menu-2
+{
+  display: none;
+  font-weight: bold;
+} 
+.hover-me:hover .sub-menu-2           /* b.tech ke course sahi honge */
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #4d4bbee8;
+     
+} 
+.sub-menu-3
+{
+   display: none;
+   font-weight: bold;
+}
+.hover-you:hover .sub-menu-3
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #4d4bbee8;
+     
+} 
+.sub-menu-4                   /* admission wala menu   */
+
+{ 
+    display: none;
+    font-weight: bold;
+}
+.menu-bar ul li:hover .sub-menu-4
+{   
+display: block;
+position: absolute;
+background: #4d4bbee8 ; /* menu ka colour change hoga */
+margin-top: 15px;
+margin-left: -15px;
+}  
+.menu-bar ul li:hover .sub-menu-4 ul
+{ 
+   display: block;
+   margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li                    /* admission ka arrange order */
+{
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted  rgb(138, 62, 62); /* apply now k neche patli si line h uska color*/
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li: last-child
+{  
+   border-bottom: none;
+}
+  .menu-bar ul li:hover .sub-menu-4 ul li a:hover 
+{ 
+   color:   #1a1515;
+} 
+.sub-menu-5                 /* placement wala menu   */
+
+{ 
+    display: none;
+    font-weight: bold;
+}
+.menu-bar ul li:hover .sub-menu-5
+{   
+display: block;
+position: absolute;
+background: #4d4bbee8 ; /* menu ka colour change hoga */
+margin-top: 15px;
+margin-left: -15px;
+}  
+.menu-bar ul li:hover .sub-menu-5 ul
+{ 
+   display: block;
+   margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li                    /* placement ka arrange order */
+{
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted rgb(138, 62, 62); /* apply now k neche patli si line h uska color*/
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li: last-child
+{  
+   border-bottom: none;
+}
+  .menu-bar ul li:hover .sub-menu-5 ul li a:hover 
+{ 
+   color:   #1a1515;    /* click krne pe color change hoga uspe */
+} 
+.sub-menu-6               /* career wala menu   */
+
+{ 
+    display: none;
+    font-weight: bold;
+}
+.menu-bar ul li:hover .sub-menu-6
+{   
+display: block;
+position: absolute;
+background: #4d4bbee8; /* menu ka colour change hoga */
+margin-top: 15px;
+margin-left: -15px;
+}  
+.menu-bar ul li:hover .sub-menu-6 ul
+{ 
+   display: block;
+   margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li                    /* career ka arrange order */
+{
+   width: 150px;
+   padding: 10px;
+   border-bottom: 1px dotted rgb(138, 62, 62);   /* apply now k neche patli si line h uska color*/
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li: last-child
+{  
+   border-bottom: none;
+}
+  .menu-bar ul li:hover .sub-menu-6 ul li a:hover 
+{ 
+   color:   #1a1515;
+} 
+.mgm
+{
+   width:100%;
+   
+} 
+
+.container
+{
+
+
+   font-family: verdana;
+
+} 
+/* form csss folder 
+form
+{
+   width: 400px;
+   margin: auto;
+   padding: 20px;
+   background: #a83535ec;
+   font-size: 18px;
+   font-family: Arial;
+   color: rgb(8, 8, 8);
+   border-radius: 15px;
+
+}
+ input[type=text]{
+    width: 80%;
+    padding:5p;
+    font-size: 18px;
+
+ }
+ input [type=submit]{
+    padding:5px;
+    font-size:16px;
+    width:100px;
+ }
+ select{
+    font-size: 16px;
+    padding:5px;
+    background: #e0d3e8;
+ }
+ .form.css{
+    font-size: 16px;
+ } 
+ */
+ 
+  .jumbotron
+  {
+     width:100%;
+     
+  }
